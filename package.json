@@ -1,0 +1,36 @@
+{
+  "name": "a2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w src --exec \"babel-node src --preset env\"",
+    "test": "jest --config ./jest_e2e.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-modules/core": "^0.7.15",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.11.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.4",
+    "unfetch": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "apollo-boost": "^0.4.7",
+    "cross-fetch": "^3.0.4",
+    "graphql": "^15.0.0",
+    "jest": "^25.2.7"
+  }
+}
